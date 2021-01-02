@@ -14,7 +14,7 @@ const Header = (props) => {
 
 function HeaderLogo() {
 
-    const Logo = '/images/logos/minor_logo.png';
+    const Logo = './images/logos/minor_logo.png';
 
     return (
         <div className="header-logo">
@@ -111,16 +111,16 @@ function Search() {
 function Nav(props) {
     return (
         <nav className="header-nav js-nav-top">
-            <a href="#menu" className="nav-item nav-mobile js-nav-mobile"></a>
+            <a href="#menu" className="nav-item nav-mobile js-nav-mobile">MOBILE</a>
             <ul id="menu" className="nav-menu js-nav-menu">
                 <li className="nav-item-title nav-stores nav-mobile-item js-nav-mobile-item">
                     <a
-                        title="Cupons de descontos e códigos promocionais organizados por Lojas" href="/sites/coupon_site/pages/stores_page.php"
+                        title="Cupons de descontos e códigos promocionais organizados por Lojas" href="/"
                         data-event="Navigation" data-action="Nav-AllStores">Lojas</a>
                 </li>
                 <li className="nav-item-title nav-categories nav-mobile-item js-nav-mobile-item">
                     <a
-                        title="Cupons de descontos e códigos promocionais organizados por Categorias" href="/sites/coupon_site/pages/categorys_page.php"
+                        title="Cupons de descontos e códigos promocionais organizados por Categorias" href="/"
                         data-event="Navigation" data-action="Nav-AllCategories">Categorias</a>
                 </li>
 
